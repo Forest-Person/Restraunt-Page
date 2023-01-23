@@ -1,0 +1,15 @@
+#content{
+
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+
+.picAboo{
+
+    font-size: 5rem;
+    color:blue;
+    
+}
