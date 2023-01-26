@@ -22,6 +22,7 @@ body html {
 
 .tabMenu {
 
-    background-color: rgb(101, 136, 100);
+    background-color: rgba(101,136,100,.7);
     list-style: none;
+    
 }
