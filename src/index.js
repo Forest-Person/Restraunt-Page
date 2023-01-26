@@ -4,28 +4,20 @@ import restrauntScene from "./images/chris-liverani-restraunt-scene-unsplash.jpg
 
 
 
-const container = document.createElement('div')
-document.body.appendChild(container)
-container.classList.add('mainContainer')
 
 
- // Add the image to our existing div.
- const myIcon = new Image();
- myIcon.src = restrauntScene;
-
-
- document.querySelector('.mainContainer').append(myIcon);
+const content = document.querySelector('.content');
 
 
 
-const para = document.createElement('p')
+const para = document.createElement('p');
 
-container.appendChild(para)
+content.append(para);
 
-para.textContent = 'This is a text content pic a bOOOOO!!!!'
+para.textContent = 'This is a text content pic a bOOOOO!!!!';
 
-mapMyArr()
+mapMyArr();
 
-para.append(' hello')
+para.append(' hello');
 
-para.classList.add('picAboo')
+para.classList.add('picAboo');

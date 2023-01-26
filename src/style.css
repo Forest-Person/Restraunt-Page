@@ -1,21 +1,30 @@
-.mainContainer{
+body html {
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height:30vh;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.content {
+
+    background-image:url("./images/kristian-angelo-dining-scene-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+
 }
 
 .picAboo{
 
+
     font-size: 5rem;
     color:blue;
+    padding: 0;
+    margin: 0;
+    height:100vh;
+    width:100vw;
     
-}
-
-.mainContainer img {
-
-    width:50vw;
-    height: auto;
+    
 }
