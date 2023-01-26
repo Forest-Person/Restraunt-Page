@@ -10,14 +10,6 @@ const content = document.querySelector('.content');
 
 
 
-const para = document.createElement('p');
 
-content.append(para);
 
-para.textContent = 'This is a text content pic a bOOOOO!!!!';
 
-mapMyArr();
-
-para.append(' hello');
-
-para.classList.add('picAboo');
