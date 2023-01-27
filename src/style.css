@@ -23,11 +23,13 @@ body html {
 
 .restarauntName > p {
     background-color: rgba(101,136,100,.7);
-    font-size: 3.5rem;
+    font-size: 4rem;
     padding:0;
     margin:0;
-     
-     font-family:handWritten ;
+    font-family:handWritten;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
 
 
@@ -39,6 +41,10 @@ body html {
     padding:0;
     margin:0;
     font-family: handWrittenBold;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     
     
 }
