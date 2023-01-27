@@ -21,20 +21,36 @@ body html {
 
 } 
 
+.restarauntName > p {
+    background-color: rgba(101,136,100,.7);
+    font-size: 3.5rem;
+    padding:0;
+    margin:0;
+     
+     font-family:handWritten ;
+ }
+
 
 .tabMenu {
 
-    background-color: rgba(101,136,100,.7);
+    
+    background-color: rgba(183,183,138,.9);
     list-style: none;
     padding:0;
     margin:0;
+    font-family: handWrittenBold;
+    
     
 }
 
-.restarauntName > p {
 
-   font-size: 3.5rem;
-   padding:0;
-   margin:0;
-    background-color: rgba(183,183,138,.5000);
-}
+
+@font-face {
+    font-family: handWritten;
+    src: url(./fonts/AmaticSC-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: handWrittenBold;
+    src: url(./fonts/AmaticSC-Bold.ttf);
+  }
