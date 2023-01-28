@@ -7,7 +7,26 @@ body  {
     
 }
 
-.content {
+.contact {
+
+
+    padding: 0;
+    margin: 0;
+    background-image:url("./images/patrick-schneider-evening-dining-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height:100vh;
+    width:100vw;
+    border:0;
+
+
+}
+
+
+
+.homePage {
 
    
     padding: 0;
@@ -32,6 +51,7 @@ body  {
     display: flex;
     justify-content: center;
     align-items: center;
+    color:white;
  }
 
 
@@ -47,8 +67,31 @@ body  {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-size: 2rem;
+    font-size: 3rem;
     
+    
+}
+
+.sloganContainer {
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    padding-top:6rem;
+    
+
+}
+
+.foodSlogan {
+
+    color:white;
+    font-family: handWritten;
+    font-size: 2.5rem;
+    font-weight:bold;
+    flex:1 1 auto;
+
+    background:rgba(101,136,100,.7)
     
 }
 

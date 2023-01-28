@@ -16,11 +16,22 @@ function insertFrontPage(){
         <li>Menu</li>
         <li>Contact</li>
 
-      </menu>`
+      </menu>
+      
+      <main class = 'sloganContainer'>
 
-  const contentContainer =  document.querySelector(".content")
+      <h1 class = 'foodSlogan'> Escape with us, please sit down, close your eyes, and BANGEEEERAAANNNG!</h1>
+      
+      </main>
+      `
+    
 
-   contentContainer.insertAdjacentHTML('afterbegin',frontPageString)
+  
+  
+  
+  
+
+  document.querySelector("#content").insertAdjacentHTML('afterbegin',frontPageString)
 
 }
 

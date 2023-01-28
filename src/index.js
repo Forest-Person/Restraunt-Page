@@ -1,33 +1,41 @@
 import './style.css';
 import { insertFrontPage } from './frontPage.js'; 
-import restrauntScene from "./images/chris-liverani-restraunt-scene-unsplash.jpg"
 
 
 
 
 
-const content = document.querySelector('.content');
 
-insertFrontPage()
+const content = document.querySelector('#content');
 
-const button = document.querySelector('.deleteButton')
+window.addEventListener('load',insertFrontPage())
 
-button.addEventListener('click', 
+content.classList.add('homePage')
 
-() => {
 
-    function removeAllChildNodes(parent) {
-        while (parent.firstChild) {
-            parent.removeChild(parent.firstChild);
-        }
+
+
+
+function removeAllChildNodes(parent) {  //function to remove all child nodes of an element
+    while (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
     }
-
-    removeAllChildNodes(content)
-
 }
 
+function changeClass(newClassName) { //function to change classname for when a new link is clicked.
 
-)
+
+if (content.classList.contains(newClassName) !== true){
+
+    content.className = newClassName
+}
+
+}
+  
+
+
+
+
 
 
 
