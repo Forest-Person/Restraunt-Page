@@ -630,7 +630,7 @@ module.exports = __webpack_require__.p + "fd9971162ff94dc53856.ttf";
   \***************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "1acea81c879610b5a68b.PNG";
+module.exports = __webpack_require__.p + "61b449704d2fa8115205.PNG";
 
 /***/ }),
 
