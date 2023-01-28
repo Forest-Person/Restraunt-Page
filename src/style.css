@@ -15,7 +15,7 @@ body  {
     background-image:url("./images/patrick-schneider-evening-dining-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
     height:100vh;
     width:100vw;
@@ -34,7 +34,7 @@ body  {
     background-image:url("./images/kristian-angelo-dining-scene-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
     height:100vh;
     width:100vw;
