@@ -1,6 +1,7 @@
 import './style.css';
 import { insertFrontPage } from './frontPage.js'; 
-import { insertMenuPage } from './menuPage';
+import { insertMenuPage } from './menuPage.js';
+import { insertContactPage } from './contactPage.js'
 
 
 function removeAllChildNodes(parent) {  //function to remove all child nodes of an element
@@ -41,6 +42,11 @@ content.addEventListener('click',(event)=>{ //Insert Menu Page and remove all ol
     removeAllChildNodes(content)
 
     insertMenuPage()
+
+}else if (elementTarget.className === 'contactButton') {
+
+    removeAllChildNodes(content)
+    insertContactPage()
 
 }
 

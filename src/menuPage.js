@@ -6,7 +6,7 @@ function insertMenuPage(){
     
 
 
-    let frontPageString = 
+    let menuPageString = 
     
     `<div class = 'restarauntName'>
          <p>Green's Food Escape</p>
@@ -33,7 +33,7 @@ function insertMenuPage(){
    
    
  
-   document.querySelector("#content").insertAdjacentHTML('afterbegin',frontPageString)
+   document.querySelector("#content").insertAdjacentHTML('afterbegin',menuPageString)
  
  }
  
