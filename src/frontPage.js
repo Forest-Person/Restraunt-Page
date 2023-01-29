@@ -12,9 +12,9 @@ function insertFrontPage(){
 
       <menu class = 'tabMenu'>
 
-        <li>Home</li>
-        <li>Menu</li>
-        <li>Contact</li>
+        <li class = 'homeButton' style = 'padding:.3rem; border:5px solid black; border-radius:15px;'>Home</li>
+        <li class = 'menuButton' >Menu</li>
+        <li class = 'contactButton' >Contact</li>
 
       </menu>
       

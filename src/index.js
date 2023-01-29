@@ -1,19 +1,6 @@
 import './style.css';
 import { insertFrontPage } from './frontPage.js'; 
-
-
-
-
-
-
-const content = document.querySelector('#content');
-
-window.addEventListener('load',insertFrontPage())
-
-content.classList.add('homePage')
-
-
-
+import { insertMenuPage } from './menuPage';
 
 
 function removeAllChildNodes(parent) {  //function to remove all child nodes of an element
@@ -31,6 +18,33 @@ if (content.classList.contains(newClassName) !== true){
 }
 
 }
+
+
+
+const content = document.querySelector('#content');
+
+window.addEventListener('load',insertFrontPage())
+
+content.classList.add('homePage')
+
+const menuButton = document.querySelector('.menuButton')
+
+
+
+menuButton.addEventListener('click',()=>{ //Remove all nodes and replace with the menu page
+removeAllChildNodes(content)
+
+insertMenuPage()
+}
+)
+
+
+
+
+
+
+
+
   
 
 
