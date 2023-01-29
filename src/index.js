@@ -19,24 +19,36 @@ if (content.classList.contains(newClassName) !== true){
 
 }
 
-
+insertFrontPage()
 
 const content = document.querySelector('#content');
 
-window.addEventListener('load',insertFrontPage())
-
 content.classList.add('homePage')
 
-const menuButton = document.querySelector('.menuButton')
 
 
+content.addEventListener('click',(event)=>{ //Insert Menu Page and remove all old nodes.
 
-menuButton.addEventListener('click',()=>{ //Remove all nodes and replace with the menu page
-removeAllChildNodes(content)
+   const elementTarget = event.target
 
-insertMenuPage()
+    if (elementTarget.className === 'homeButton') {
+
+        removeAllChildNodes(content)
+        insertFrontPage()
+
+    }else if (elementTarget.className === 'menuButton'){
+
+    removeAllChildNodes(content)
+
+    insertMenuPage()
+
+}
+
 }
 )
+
+
+
 
 
 
