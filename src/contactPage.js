@@ -1,5 +1,10 @@
 function insertContactPage(){
 
+  const content = document.querySelector('#content');
+
+
+  content.style.cssText = 'padding: 0;margin: 0;background-image:url("./patrick-schneider-evening-dining-unsplash2.jpg");background-size: cover;background-repeat: no-repeat;background-position: center;background-attachment: fixed;height:100vh;width:100vw;border:0;'
+
 
     let contactPageString = 
     
