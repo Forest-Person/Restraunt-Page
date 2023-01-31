@@ -131,6 +131,20 @@ body  {
     position:sticky;
 }
 
+.contactInfo {
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: handWritten;
+    font-size: 2rem;
+    color: white;
+    
+}
+
+
+
 
 
 
