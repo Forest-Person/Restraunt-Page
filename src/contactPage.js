@@ -20,11 +20,7 @@ function insertContactPage(){
  
        </menu>
        
-       <main class = 'sloganContainer'>
- 
-       <h1 class = 'foodSlogan'> Escape with us, please sit down, close your eyes, and BANGEEEERAAANNNG!</h1>
        
-       </main>
        `
      
  
