@@ -22,18 +22,31 @@ function insertContactPage(){
 
        <main class = 'contactInfo'>
 
-       <h1> Contact us! </h1>
-       <h2> Phone Number: 123-123-1234
-       <h2> Address: Fourteen Seventeen Thirty Eight Big Drive Way suite 707</h2>
-       <h3> Open</h3>
-        <p>Friday & Saturday Lunch 11:30 - 3:30</p>
-        <p>Friday & Saturday Dinner 4:30 - 8:30</p>
-        <p>Sunday Lunch 11:30 - 3:30</p>
-        <p>Sunday Dinner 4:00 - 8:30</p>
-        <p>Monday Lunch 11:30 - 3:30</p>
-        <p>Monday 4:30 - 8:30 <p/>
-        <p>Wednesday 4:30 to 8:30</p>
-        <p>Thursday 4:30 - 8:30</p>
+       <div class = 'contactNumberAddress'>
+        <h1> Contact us! </h1>
+        <h2> Phone Number: 123-123-1234 </h2>
+        <h2> Address:</h2><p style = 'display:flex; align-items: center; justify-content:center;'> 141738 Big Drive Way <br> Foodiah, Califorknia <br> 95473</p>
+
+      </div>
+       
+        <section>
+        
+        <div>  
+        <h2 style = 'display:flex; align-items:center; justify-content:center;padding-top:1rem;' > Open</h2>
+        </div>
+            
+          <div class = 'hoursOpen'>
+            <p>Friday & Saturday Lunch 11:30 - 3:30</p>
+            <p>Friday & Saturday Dinner 4:30 - 8:30</p>
+            <p>Sunday Lunch 11:30 - 3:30</p>
+            <p>Sunday Dinner 4:00 - 8:30</p>
+            <p>Monday Lunch 11:30 - 3:30</p>
+            <p>Monday 4:30 - 8:30 </p>
+            <p>Wednesday 4:30 to 8:30</p>
+            <p>Thursday 4:30 - 8:30</p>
+          </div>
+
+        </section>
        
         </main>
        
