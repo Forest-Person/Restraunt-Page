@@ -29,10 +29,10 @@ function insertContactPage(){
 
       </div>
        
-        <section>
         
-        <div>  
-        <h2 style = 'display:flex; align-items:center; justify-content:center;padding-top:1rem;' > Open</h2>
+        
+        <div class = 'openDiv'>  
+        <p style = 'font-family:handWrittenBold;font-size:4rem;display:flex; align-items:center; justify-content:center; padding-bottom:0; margin-bottom:0; margin-top:0;' > Open</p>
         </div>
             
           <div class = 'hoursOpen'>
@@ -46,7 +46,7 @@ function insertContactPage(){
             <p>Thursday 4:30 - 8:30</p>
           </div>
 
-        </section>
+        
        
         </main>
        
