@@ -22,8 +22,25 @@ function insertMenuPage(){
          <li class = 'contactButton' >Contact</li>
  
        </menu>
+
+       <section class = 'menuChoices'>
+          
+        <img src = "./alfredo.PNG">
+          <h2>Chicken Alfredo</h2>
+          <p> Our slow cooked tender chicken slices with long gorgeous hand made pasta strips in the most luxurious cream sauce you have ever dreamed of.</p>
        
-       
+        <img src = "./pizza.PNG">
+          <h2>Pizza Marguerite</h2>
+          <p>Our finest pizza with tomato, jalapenos, proscuitto, basil and arugula.</p>
+         
+        <img src = "./dessert.PNG">
+          <h2> Pistaccio Pie</h2>
+          <p>Rated best pistaccio pie by foodie Magizine! Creamy texture, sweet flavor, laden with frosted pistaccio and candied goji berries for that Health Kick to the soul!<p>
+
+        <img src = "./drinks.PNG">
+          <h2> Drinks for ALL! </h2>
+          <p> Water, Beer, Lemonade, Crystal waters, glacial ice by the bucket.</p>
+        
        `
      
 
