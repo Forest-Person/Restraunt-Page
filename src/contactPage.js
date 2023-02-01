@@ -32,7 +32,7 @@ function insertContactPage(){
         
         
         <div class = 'openDiv'>  
-        <p style = ' background-color:var(--greenTransparent2);font-family:handWrittenBold;font-size:4rem;display:flex; align-items:center; justify-content:center; padding-bottom:0; margin-bottom:.5rem; margin-top:.5rem; border-radius:10px;' > Open</p>
+        <p style = ' background-color:var(--greenTransparent2);font-family:handWrittenBold;font-size:4rem;display:flex; align-items:center; justify-content:center; padding-bottom:0; margin-bottom:.3rem; margin-top:.3rem; border-radius:10px; padding-left:2rem; padding-right:2rem;' > Open</p>
         </div>
             
           <div class = 'hoursOpen'>
