@@ -161,6 +161,8 @@ body  {
 .openDiv {
 
 margin-top:0;
+border-color: var(--greenTransparent2);
+
 
 }
 
@@ -170,13 +172,38 @@ margin-top:0;
     grid-template-columns: 2fr 2fr 2fr 2fr;
     column-gap: 1rem;
     background: var(--greenTransparent2);
-    padding:1rem;
+    row-gap: 1rem;
     border-radius: 10px;
     font-size: 2rem;
+    align-items: center;
+    justify-items: center;
+    padding-left:3rem;
+    
     
     
     
 }
+
+@media (max-width: 1000px) {
+    .hoursOpen {
+
+        display:grid;
+        grid-template-columns: 1fr ;
+        column-gap: 1rem;
+        background: var(--greenTransparent2);
+        row-gap: 1rem;
+        border-radius: 10px;
+        font-size: 2rem;
+        align-items: center;
+        justify-items: center;
+        padding-left:1rem;
+        padding-right:1rem;
+        
+        
+        
+        
+    }
+  }
 
 .contactInfo h1, h2 {
 
